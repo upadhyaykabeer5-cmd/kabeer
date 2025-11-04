@@ -1,0 +1,77 @@
+Arrays: Meaning, Example, and Declaration
+An array is a collection of variables of the same data type stored at contiguous memory locations and accessed using a common name with an index. Arrays let you store and efficiently access multiple values using a single variable name.​
+
+Example & Declaration in C:
+
+c
+int numbers[5];     // declares array of 5 integers
+numbers[0] = 10;    // first element assigned value 10
+In the code above, int numbers[5]; creates an integer array with 5 elements, and numbers = 10; sets the first value to 10.​
+
+Functions: Meaning, Types, and Code
+A function is a block of code that performs a specific task and can be called whenever needed. Functions help organize code into reusable and manageable parts.​
+
+Types of functions:
+
+Built-in (library) functions
+
+User-defined functions
+
+Built-in Function Example (C):
+
+c
+#include <stdio.h>
+int main() {
+    printf("Hello World"); // printf is a built-in function
+    return 0;
+}
+User-defined Function Example (C):
+
+c
+#include <stdio.h>
+void greet() {                // user-defined function
+    printf("Welcome!");
+}
+int main() {
+    greet();                  // calling user-defined function
+    return 0;
+}
+Built-in functions like printf() come from libraries, while user-defined functions like greet() are written by the programmer.​
+
+Pointers: Meaning and Initialization Code
+A pointer is a variable that stores the memory address of another variable. Pointers provide powerful ways to handle memory and data directly.​
+
+Pointer Initialization Example (C):
+
+c
+int x = 25;
+int *ptr = &x;   // ptr is a pointer to int, initialized with address of x
+Here, ptr points to the location in memory where x is stored.​
+
+Types of Arrays with Code: 1D and 2D
+Arrays are categorized based on their dimension:
+
+1D Array: Linear array.
+
+2D Array: Matrix-like, array of arrays.​
+
+1D Array Example:
+
+c
+int marks[5] = {90, 80, 70, 60, 50};
+2D Array Example:
+
+c
+int matrix[2][3] = { {1, 2, 3}, {4, 5, 6} };
+1D arrays store data sequentially, while 2D arrays organize data in rows and columns.​
+
+Types of Operators in Code
+Operators are symbols that perform operations on variables and values. Main types include:​
+
+Operator Type	Example Code	Explanation
+Arithmetic	int a = 5 + 3;	Addition (+), Subtraction (-), Multiplication (*), Division (/), Modulus (%)​
+Assignment	a = 10;	Assigns value (=), add and assign (+=), subtract and assign (-=)​
+Unary	a++;	Increment (++), Decrement (--), Plus (+), Minus (-), Logical NOT (!)​
+Relational	if(a > b)	Greater than (>), Less than (<), Equal to (==), Not Equal (!=)​
+Logical	if(a > 0 && b < 5)	AND (&&), OR (
+Bitwise	a = a & b;	AND (&), OR (
